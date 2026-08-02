@@ -1,20 +1,46 @@
 aid: zepz
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zepz.png
 name: Zepz
-description: 'Zepz is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Zepz (formerly WorldRemit Group) is a London-headquartered cross-border
+  payments and remittance fintech that operates the consumer money-transfer
+  brands WorldRemit and Sendwave. Through its mobile apps and website, Zepz lets
+  migrants and their families send money from ~50 sending countries to 130+
+  receiving countries via bank deposit, mobile money, cash pickup, and airtime
+  top-up, processing tens of millions of transactions and roughly $10B in annual
+  customer transfers. Zepz is a direct-to-consumer app business: it publishes no
+  public developer portal, OpenAPI, or partner integration API. This profile was
+  added as an Accel portfolio-company lead; enrichment confirms there is no
+  public API surface to catalog at this time.
 url: https://raw.githubusercontent.com/api-evangelist/zepz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - accel
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Fintech
+- Payments
+- Remittances
+- Money Transfer
+- Cross-Border Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +49,11 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.zepzpay.com/
+  url: https://zepz.io/
+- type: Blog
+  url: https://zepz.io/news-and-insights/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
